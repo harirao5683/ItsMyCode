@@ -1,0 +1,67 @@
+header,nav,aside,footer,section,article{
+    display:block;
+}
+
+header .container{
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:15px;
+    padding-right:5px;
+    background-image: url("https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/growth_frontpage/us_europe/Bitmap.png?auto=format&dpr=2&fit=crop");
+    background-repeat: no-repeat;
+    width:auto;
+    height:600px;
+
+}
+header nav{
+    position:fixed;
+    left:0;
+    right:0;
+    margin:40px 0px;
+    z-index: 1;
+}
+header .logo-class {
+    display:block;
+    float:left;
+    margin: -14px 20px;
+    padding:0;
+}
+header img{
+    height:75px;
+    width:300px;
+    opacity:0.6;
+    box-shadow: gray 2px 2px;
+}
+
+header .navigation{
+    float:right;
+    margin-right:20px;
+}
+header table a{
+    padding:15px;
+    margin:4px;
+    background-color: black;
+    color:red;
+    width:100px;
+    border-radius: 10%;
+    text-decoration: none;
+}
+header a:hover{
+    background-color: green;
+    color:red;
+}
+section .container{
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:15px;
+    padding-right:5px;
+    width:auto;
+    height:600px;
+}
+section h1{
+    text-align: center;
+    color: orange;
+}
+section h4{
+    text-align: center;
+}
