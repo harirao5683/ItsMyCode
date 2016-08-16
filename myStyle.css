@@ -1,6 +1,12 @@
 header,nav,aside,footer,section,article{
     display:block;
 }
+*{
+    box-sizing: border-box;
+}
+*:before, *:after {
+    box-sizing: border-box;
+}
 
 header .container{
     margin-left:auto;
@@ -11,7 +17,7 @@ header .container{
     background-repeat: no-repeat;
     width:auto;
     height:600px;
-
+    border-bottom: 60px solid orange;
 }
 header nav{
     position:fixed;
@@ -40,7 +46,7 @@ header .navigation{
 header table a{
     padding:15px;
     margin:4px;
-    background-color: black;
+    background-color: yellow;
     color:red;
     width:100px;
     border-radius: 10%;
@@ -53,15 +59,90 @@ header a:hover{
 section .container{
     margin-left:auto;
     margin-right:auto;
+    margin-top:30px;
     padding-left:15px;
     padding-right:5px;
     width:auto;
     height:600px;
 }
-section h1{
+section .section1 h1{
     text-align: center;
     color: orange;
 }
-section h4{
+section .section1 h4{
     text-align: center;
+}
+section .section1 .circle{
+    height:240px;
+    width:240px;
+    border: 6px solid orange;
+    border-radius: 50%;
+    margin: 80px auto;
+    padding:20px;
+}
+section .section1 .circle .title h4{
+
+    margin-left: 6px;
+    margin-top: 20px;
+    font-weight:bolder;
+    color:orange;
+}
+section .section1 .circle .title h5{
+
+    margin-left: 45px;
+    font-weight: bold;
+}
+section .section1 .circle .title p{
+    text-align:center;
+}
+section .section2 .banner{
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:15px;
+    padding-right:5px;
+    background-image: url("https://egen.solutions/images/banner-2.jpg");
+    background-repeat: no-repeat;
+    width:auto;
+    height:600px;
+    position:relative;
+    padding: 80px 0px;
+    color:white;
+    text-align:center;
+    border-bottom: 60px solid orange;
+}
+section .section2 .content{
+    padding:60px;
+    margin-top:80px;
+    background: rgba(3,14,40,0.27);
+
+
+}
+section .section2 .content h1{
+    color:white;
+    text-align:center;
+
+}
+section .section2 .content h2{
+    color:orange;
+    text-align:center;
+
+}
+section .section3{
+    background-color: #ebeff2;
+    height:400px;
+    position:relative;
+    padding: 80px 0px;
+}
+
+section .section3 .banner{
+    text-align:center;
+    padding: 20px;
+    margin-top:10px;
+}
+section .section3 .banner:before, section .section3 .banner:after{
+    content:"";
+    display:inline-block;
+    height:2px;
+    width:300px;
+    background-color: #EA5A27;
 }
