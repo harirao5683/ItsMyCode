@@ -46,7 +46,7 @@ header .navigation{
 header table a{
     padding:15px;
     margin:4px;
-    background-color: yellow;
+    background-color: black;
     color:red;
     width:100px;
     border-radius: 10%;
@@ -94,6 +94,7 @@ section .section1 .circle .title h5{
 }
 section .section1 .circle .title p{
     text-align:center;
+    
 }
 section .section2 .banner{
     margin-left:auto;
@@ -127,9 +128,18 @@ section .section2 .content h2{
     text-align:center;
 
 }
+section .container2{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+    padding-left:15px;
+    padding-right:5px;
+    width:auto;
+    height:300px;
+
+}
 section .section3{
     background-color: #ebeff2;
-    height:400px;
     position:relative;
     padding: 80px 0px;
 }
@@ -145,4 +155,28 @@ section .section3 .banner:before, section .section3 .banner:after{
     height:2px;
     width:300px;
     background-color: #EA5A27;
+}
+section .container3{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+    padding-left:15px;
+    padding-right:5px;
+    width:auto;
+    height:200px;
+}
+section .section4 .cstyle{
+    background-image: radial-gradient(#586C84, #050B13);
+    text-align:left;
+    margin-top:120px;
+    height:200px;
+}
+section .section4 .cstyle h3{
+    color:white;
+    border-bottom: 2px solid #FF652E;
+    padding:10px;
+}
+section .section4 .cstyle h4{
+    color:white;
+    padding:2px;
 }
